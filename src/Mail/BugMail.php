@@ -14,6 +14,7 @@ class BugMail extends Mailable implements ShouldQueue
     public $view;
     public $subject;
     public $body;
+    public $origin;
 
     /**
      * Create a new message instance.
@@ -24,11 +25,13 @@ class BugMail extends Mailable implements ShouldQueue
      *
      * @return void
      */
-    public function __construct($view, $subject, $body)
+    public function __construct($view, $subject, $body, $origin = null)
     {
         $this->view = $view;
         $this->subject = $subject;
         $this->body = $body;
+        $this->body = $body;
+        $this->origin = $origin ? ' @ ' . $origin : '';
     }
 
     /**
@@ -39,6 +42,6 @@ class BugMail extends Mailable implements ShouldQueue
     public function build()
     {
         return $this->view($this->view)
-            ->subject($this->subject . ' @ ' . $_SERVER['HTTP_HOST']);
+            ->subject($this->subject . $this->origin);
     }
 }

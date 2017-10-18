@@ -21,9 +21,10 @@ class MailDriver extends Driver implements DriverInterface
         $addresses = $this->getEmailAddresses();
         $subject = $message->getTitle();
         $body = $message->getBody();
+        $origin = $_SERVER['HTTP_HOST'];
 
         Mail::to($addresses)
-            ->queue(new BugMail($view, $subject, $body));
+            ->queue(new BugMail($view, $subject, $body, $origin));
     }
 
     /**
