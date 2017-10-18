@@ -1,9 +1,9 @@
 <?php
 
-namespace FlyingLuscas\BugNotifier;
+namespace vzool\BugNotifier;
 
-use FlyingLuscas\BugNotifier\Drivers\DriverInterface;
-use FlyingLuscas\BugNotifier\Exceptions\InvalidDriverNameException;
+use vzool\BugNotifier\Drivers\DriverInterface;
+use vzool\BugNotifier\Exceptions\InvalidDriverNameException;
 
 class BugNotifier
 {
@@ -29,8 +29,8 @@ class BugNotifier
     /**
      * Send notification using the given driver.
      *
-     * @param \FlyingLuscas\BugNotifier\Message                $message
-     * @param \FlyingLuscas\BugNotifier\Drivers\DriverInterface $driver
+     * @param \vzool\BugNotifier\Message                $message
+     * @param \vzool\BugNotifier\Drivers\DriverInterface $driver
      *
      * @return mixed
      */

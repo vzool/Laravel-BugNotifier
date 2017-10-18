@@ -1,6 +1,6 @@
 <?php
 
-namespace FlyingLuscas\BugNotifier\Exceptions;
+namespace vzool\BugNotifier\Exceptions;
 
 class DriverConfigPathNotFoundException extends \InvalidArgumentException
 {

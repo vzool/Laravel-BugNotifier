@@ -60,7 +60,7 @@ return [
         'to' => [
             'hello@example.com', 'another@example.com',
         ],
-        'driver' => FlyingLuscas\BugNotifier\Drivers\MailDriver::class,
+        'driver' => vzool\BugNotifier\Drivers\MailDriver::class,
     ],
 
 ];

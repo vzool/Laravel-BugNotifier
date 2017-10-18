@@ -17,7 +17,7 @@ BugNotifier will catch the exceptions thrown by Laravel and notify you through e
 Via Composer
 
 ``` bash
-$ composer require flyingluscas/bug-notifier
+$ composer require vzool/bug-notifier
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ Add the `BugNotifierServiceProvider` under the `providers` section on `config/ap
 ``` php
 'providers' => [
     // ...
-    FlyingLuscas\BugNotifier\BugNotifierServiceProvider::class,
+    vzool\BugNotifier\BugNotifierServiceProvider::class,
 ],
 ```
 
@@ -36,7 +36,7 @@ Add the `BugNotifierServiceProvider` under the `providers` section on `config/ap
 Run this command in your terminal to publish the configuration file.
 
 ``` bash
-$ php artisan vendor:publish --provider="FlyingLuscas\BugNotifier\BugNotifierServiceProvider"
+$ php artisan vendor:publish --provider="vzool\BugNotifier\BugNotifierServiceProvider"
 ```
 
 This command will generate the `config/bugnotifier.php` config file.
@@ -52,7 +52,7 @@ Go to your `app/Exceptions/Handler.php` file, and scroll down to the `report` me
 here you can intercept any exceptions thrown by Laravel, so use the `Notify` **facade** to set it up.
 
 ``` php
-use FlyingLuscas\BugNotifier\Facades\Notify;
+use vzool\BugNotifier\Facades\Notify;
 
 // ...
 

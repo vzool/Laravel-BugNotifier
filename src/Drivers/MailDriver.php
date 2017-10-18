@@ -1,17 +1,17 @@
 <?php
 
-namespace FlyingLuscas\BugNotifier\Drivers;
+namespace vzool\BugNotifier\Drivers;
 
 use Illuminate\Support\Facades\Mail;
-use FlyingLuscas\BugNotifier\Message;
-use FlyingLuscas\BugNotifier\Mail\BugMail;
+use vzool\BugNotifier\Message;
+use vzool\BugNotifier\Mail\BugMail;
 
 class MailDriver extends Driver implements DriverInterface
 {
     /**
      * Send e-mail message.
      *
-     * @param \FlyingLuscas\BugNotifier\Message $message
+     * @param \vzool\BugNotifier\Message $message
      *
      * @return void
      */

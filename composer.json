@@ -1,9 +1,10 @@
 {
-    "name": "flyingluscas/bug-notifier",
+    "name": "vzool/bug-notifier",
     "type": "library",
     "description": "Get notified every time an exception is thrown in your application.",
     "keywords": [
         "flyingluscas",
+        "vzool",
         "BugNotifier",
         "issues",
         "e-mail",
@@ -12,13 +13,19 @@
         "Laravel",
         "bug"
     ],
-    "homepage": "https://github.com/flyingluscas/Laravel-BugNotifier",
+    "homepage": "https://github.com/vzool/Laravel-BugNotifier",
     "license": "MIT",
     "authors": [
         {
             "name": "Lucas Pires",
             "email": "lucas.pires.mattos@gmail.com",
             "homepage": "https://github.com/flyingluscas",
+            "role": "Developer"
+        },
+        {
+            "name": "Abdelaziz Elrashed",
+            "email": "aeemh.sdn@gmail.com",
+            "homepage": "https://github.com/vzool",
             "role": "Developer"
         }
     ],

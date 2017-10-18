@@ -1,15 +1,15 @@
 <?php
 
-namespace FlyingLuscas\BugNotifier\Drivers;
+namespace vzool\BugNotifier\Drivers;
 
-use FlyingLuscas\BugNotifier\Message;
+use vzool\BugNotifier\Message;
 
 interface DriverInterface
 {
     /**
      * Handle the notification message.
      *
-     * @param \FlyingLuscas\BugNotifier\Message $message
+     * @param \vzool\BugNotifier\Message $message
      *
      * @return void
      */

@@ -1,8 +1,8 @@
 <?php
 
-namespace FlyingLuscas\BugNotifier\Drivers;
+namespace vzool\BugNotifier\Drivers;
 
-use FlyingLuscas\BugNotifier\Exceptions\DriverConfigPathNotFoundException;
+use vzool\BugNotifier\Exceptions\DriverConfigPathNotFoundException;
 
 abstract class Driver
 {

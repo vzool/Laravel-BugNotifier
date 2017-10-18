@@ -1,6 +1,6 @@
 <?php
 
-namespace FlyingLuscas\BugNotifier\Facades;
+namespace vzool\BugNotifier\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

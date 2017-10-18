@@ -1,6 +1,6 @@
 <?php
 
-namespace FlyingLuscas\BugNotifier;
+namespace vzool\BugNotifier;
 
 class DummyException extends \Exception
 {
