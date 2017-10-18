@@ -39,6 +39,6 @@ class BugMail extends Mailable implements ShouldQueue
     public function build()
     {
         return $this->view($this->view)
-            ->subject($this->subject);
+            ->subject($this->subject . ' @ ' . $_SERVER['HTTP_HOST']);
     }
 }

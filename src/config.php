@@ -44,6 +44,7 @@ return [
         Illuminate\Database\Eloquent\ModelNotFoundException::class,
         Symfony\Component\HttpKernel\Exception\HttpException::class,
         Symfony\Component\HttpKernel\Exception\NotFoundHttpException::class,
+        Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException::class,
     ],
 
     /*
