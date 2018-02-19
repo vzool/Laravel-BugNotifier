@@ -2,6 +2,7 @@
 
 namespace Vzool\BugNotifier;
 
+use Vzool\BugNotifier\Drivers\MailDriver;
 use Vzool\BugNotifier\Drivers\DriverInterface;
 use Vzool\BugNotifier\Exceptions\InvalidDriverNameException;
 
