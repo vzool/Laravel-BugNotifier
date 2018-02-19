@@ -1,8 +1,8 @@
 <?php
 
-namespace vzool\BugNotifier\Drivers;
+namespace Vzool\BugNotifier\Drivers;
 
-use vzool\BugNotifier\Exceptions\DriverConfigPathNotFoundException;
+use Vzool\BugNotifier\Exceptions\DriverConfigPathNotFoundException;
 
 abstract class Driver
 {

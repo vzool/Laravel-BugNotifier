@@ -1,6 +1,6 @@
 <?php
 
-namespace vzool\BugNotifier\Facades;
+namespace Vzool\BugNotifier\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

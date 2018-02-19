@@ -1,17 +1,17 @@
 <?php
 
-namespace vzool\BugNotifier\Drivers;
+namespace Vzool\BugNotifier\Drivers;
 
 use Illuminate\Support\Facades\Mail;
-use vzool\BugNotifier\Message;
-use vzool\BugNotifier\Mail\BugMail;
+use Vzool\BugNotifier\Message;
+use Vzool\BugNotifier\Mail\BugMail;
 
 class MailDriver extends Driver implements DriverInterface
 {
     /**
      * Send e-mail message.
      *
-     * @param \vzool\BugNotifier\Message $message
+     * @param \Vzool\BugNotifier\Message $message
      *
      * @return void
      */

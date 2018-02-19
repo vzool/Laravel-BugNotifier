@@ -1,15 +1,15 @@
 <?php
 
-namespace vzool\BugNotifier\Drivers;
+namespace Vzool\BugNotifier\Drivers;
 
-use vzool\BugNotifier\Message;
+use Vzool\BugNotifier\Message;
 
 interface DriverInterface
 {
     /**
      * Handle the notification message.
      *
-     * @param \vzool\BugNotifier\Message $message
+     * @param \Vzool\BugNotifier\Message $message
      *
      * @return void
      */

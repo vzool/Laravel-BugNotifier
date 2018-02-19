@@ -28,7 +28,7 @@ Add the `BugNotifierServiceProvider` under the `providers` section on `config/ap
 ``` php
 'providers' => [
     // ...
-    vzool\BugNotifier\BugNotifierServiceProvider::class,
+    Vzool\BugNotifier\BugNotifierServiceProvider::class,
 ],
 ```
 
@@ -36,7 +36,7 @@ Add the `BugNotifierServiceProvider` under the `providers` section on `config/ap
 Run this command in your terminal to publish the configuration file.
 
 ``` bash
-$ php artisan vendor:publish --provider="vzool\BugNotifier\BugNotifierServiceProvider"
+$ php artisan vendor:publish --provider="Vzool\BugNotifier\BugNotifierServiceProvider"
 ```
 
 This command will generate the `config/bugnotifier.php` config file.
@@ -52,7 +52,7 @@ Go to your `app/Exceptions/Handler.php` file, and scroll down to the `report` me
 here you can intercept any exceptions thrown by Laravel, so use the `Notify` **facade** to set it up.
 
 ``` php
-use vzool\BugNotifier\Facades\Notify;
+use Vzool\BugNotifier\Facades\Notify;
 
 // ...
 

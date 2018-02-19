@@ -1,6 +1,6 @@
 <?php
 
-namespace vzool\BugNotifier\Mail;
+namespace Vzool\BugNotifier\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;

@@ -1,10 +1,10 @@
 <?php
 
-namespace vzool\BugNotifier;
+namespace Vzool\BugNotifier;
 
 use Mockery;
 use MailThief\Testing\InteractsWithMail;
-use vzool\BugNotifier\Drivers\MailDriver;
+use Vzool\BugNotifier\Drivers\MailDriver;
 
 class MailDriverTest extends TestCase
 {
@@ -65,7 +65,7 @@ class MailDriverTest extends TestCase
      * @param  string $title
      * @param  string $body
      *
-     * @return \vzool\BugNotifier\Message
+     * @return \Vzool\BugNotifier\Message
      */
     private function getMessage($title, $body)
     {
@@ -78,7 +78,7 @@ class MailDriverTest extends TestCase
     /**
      * Get driver instance.
      *
-     * @return \vzool\BugNotifier\Drivers\MailDriver
+     * @return \Vzool\BugNotifier\Drivers\MailDriver
      */
     private function getDriver()
     {

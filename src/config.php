@@ -61,7 +61,7 @@ return [
         'to' => [
             'hello@example.com', 'another@example.com',
         ],
-        'driver' => vzool\BugNotifier\Drivers\MailDriver::class,
+        'driver' => Vzool\BugNotifier\Drivers\MailDriver::class,
     ],
 
 ];

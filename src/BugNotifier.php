@@ -1,9 +1,9 @@
 <?php
 
-namespace vzool\BugNotifier;
+namespace Vzool\BugNotifier;
 
-use vzool\BugNotifier\Drivers\DriverInterface;
-use vzool\BugNotifier\Exceptions\InvalidDriverNameException;
+use Vzool\BugNotifier\Drivers\DriverInterface;
+use Vzool\BugNotifier\Exceptions\InvalidDriverNameException;
 
 class BugNotifier
 {
@@ -29,8 +29,8 @@ class BugNotifier
     /**
      * Send notification using the given driver.
      *
-     * @param \vzool\BugNotifier\Message                $message
-     * @param \vzool\BugNotifier\Drivers\DriverInterface $driver
+     * @param \Vzool\BugNotifier\Message                $message
+     * @param \Vzool\BugNotifier\Drivers\DriverInterface $driver
      *
      * @return mixed
      */

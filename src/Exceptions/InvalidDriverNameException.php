@@ -1,6 +1,6 @@
 <?php
 
-namespace vzool\BugNotifier\Exceptions;
+namespace Vzool\BugNotifier\Exceptions;
 
 class InvalidDriverNameException extends \InvalidArgumentException
 {

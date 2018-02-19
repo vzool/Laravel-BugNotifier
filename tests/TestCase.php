@@ -1,6 +1,6 @@
 <?php
 
-namespace vzool\BugNotifier;
+namespace Vzool\BugNotifier;
 
 use Mockery;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;

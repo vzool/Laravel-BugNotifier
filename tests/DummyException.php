@@ -1,6 +1,6 @@
 <?php
 
-namespace vzool\BugNotifier;
+namespace Vzool\BugNotifier;
 
 class DummyException extends \Exception
 {
